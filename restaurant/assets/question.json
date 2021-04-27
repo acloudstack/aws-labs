@@ -1,0 +1,15 @@
+{
+    "question": "A customer relationship management (CRM) application runs on Amazon EC2 instances in multiple Availability Zones behind an Application Load Balancer. If one of these instances fails, what occurs?",
+    "choices": {
+      "a": "The load balancer will stop sending requests to the failed instance.",
+      "B": "The load balancer will terminate the failed instance.",
+      "C": "The load balancer will automatically replace the failed instance.",
+      "D": "The load balancer will return 504 Gateway Timeout errors until the instance is replaced."
+    },
+    "answers": [
+      "A"
+    ],
+    "hints": [
+      "An Application Load Balancer (ALB) sends requests to healthy instances only. An ALB performs periodic health checks on targets in a target group. An instance that fails health checks for a configurable number of consecutive times is considered unhealthy. The load balancer will no longer send requests to the instance until it passes another health check."
+    ]
+  }

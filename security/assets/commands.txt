@@ -1,0 +1,1 @@
+for ((i=1;i<=300;i++)); do curl -0 https://d1vmw7026i3588.cloudfront.net/ done

@@ -1,0 +1,33 @@
+{
+  "Comment": "Get Data from demo_table State Machine",
+  "StartAt": "CheckQueryParameters",
+  "States": {
+    "CheckQueryParameters": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.user_id",
+          "StringEquals": "",
+          "Next": "ScanTable"
+        },
+        {
+          "Not": {
+            "Variable": "$.user_id",
+            "StringEquals": ""
+          },
+          "Next": "SearchTable"
+        }
+      ]
+    },
+    "ScanTable": {
+      "Type": "Task",
+      "Resource": "<LAMBDA_FUNCTION_ARN>",
+      "End": true
+    },
+    "SearchTable": {
+      "Type": "Task",
+      "Resource": "<LAMBDA_FUNCTION_ARN>",
+      "End": true
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+    "Comment": "An example of the Amazon States Language using a parallel state to execute multiple branches at the same time.",
+    "StartAt": "Process Order",
+    "States": {
+      "Process Order": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:us-east-2::function:demo-sqs",
+        "TimeoutSeconds": 15,
+        "Retry": [
+          {
+            "ErrorEquals": [
+              "States.TaskFailed"
+            ],
+            "IntervalSeconds": 15,
+            "MaxAttempts": 5,
+            "BackoffRate": 1.5
+          }
+        ],
+        "Next": "Parallel"
+      },
+      "Parallel": {
+        "Type": "Parallel",
+        "Next": "Payment Service",
+        "Branches": [
+          {
+            "StartAt": "Make Drink",
+            "States": {
+              "Make Drink": {
+                "Type": "Task",
+                "Resource": "arn:aws:lambda:us-east-2::function:demo-sqs",
+                "TimeoutSeconds": 15,
+                "Retry": [
+                  {
+                    "ErrorEquals": [
+                      "States.Timeout"
+                    ],
+                    "IntervalSeconds": 3,
+                    "MaxAttempts": 2,
+                    "BackoffRate": 1.5
+                  }
+                ],
+                "Next": "Check Age"
+              },
+              "Check Age": {
+                "Type": "Task",
+                "Resource": "arn:aws:lambda:us-east-2::function:demo-sqs",
+                "TimeoutSeconds": 15,
+                "Retry": [
+                  {
+                    "ErrorEquals": [
+                      "States.Timeout"
+                    ],
+                    "IntervalSeconds": 3,
+                    "MaxAttempts": 2,
+                    "BackoffRate": 1.5
+                  }
+                ],
+                "End": true
+              }
+            }
+          },
+          {
+            "StartAt": "Make Main Course",
+            "States": {
+              "Make Main Course": {
+                "Type": "Task",
+                "Resource": "arn:aws:lambda:us-east-2::function:demo-sqs",
+                "TimeoutSeconds": 15,
+                "Retry": [
+                  {
+                    "ErrorEquals": [
+                      "States.Timeout"
+                    ],
+                    "IntervalSeconds": 3,
+                    "MaxAttempts": 2,
+                    "BackoffRate": 1.5
+                  }
+                ],
+                "End": true
+              }
+            }
+          },
+          {
+            "StartAt": "Make Side Dish",
+            "States": {
+              "Make Side Dish": {
+                "Type": "Task",
+                "Resource": "arn:aws:lambda:us-east-2::function:demo-sqs",
+                "TimeoutSeconds": 15,
+                "Retry": [
+                  {
+                    "ErrorEquals": [
+                      "States.Timeout"
+                    ],
+                    "IntervalSeconds": 3,
+                    "MaxAttempts": 2,
+                    "BackoffRate": 1.5
+                  }
+                ],
+                "End": true
+              }
+            }
+          }
+        ]
+      },
+      "Payment Service": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:us-east-2::function:demo-wait",
+        "TimeoutSeconds": 3,
+        "Retry": [
+          {
+            "ErrorEquals": [
+              "States.Timeout"
+            ],
+            "IntervalSeconds": 1,
+            "MaxAttempts": 1,
+            "BackoffRate": 1.5
+          }
+        ],
+        "Catch": [
+          {
+            "ErrorEquals": [
+              "States.ALL"
+            ],
+            "ResultPath": "$",
+            "Next": "Service Error"
+          }
+        ],
+        "Next": "Notify Diner"
+      },
+      "Service Error": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:us-east-2::function:demo-sqs",
+        "TimeoutSeconds": 15,
+        "Retry": [
+          {
+            "ErrorEquals": [
+              "States.Timeout"
+            ],
+            "IntervalSeconds": 3,
+            "MaxAttempts": 2,
+            "BackoffRate": 1.5
+          }
+        ],
+        "End": true
+      },
+      "Notify Diner": {
+        "Type": "Task",
+        "Resource": "arn:aws:states:::sns:publish",
+        "Parameters": {
+          "TopicArn": "arn:aws:sns:us-east-2::demo-topic-order",
+          "Message": "Hello from Step Functions!"
+        },
+        "End": true
+      }
+    }
+  }
