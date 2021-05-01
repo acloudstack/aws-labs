@@ -27,8 +27,16 @@ marp: true
 ---
 ### Pilot Light
 ![alt text right](./assets/pilot_light.vpd.png "DR - Pilot Light")
+
 ---
 
 ### Warm Standby
 ![alt text right](./assets/warm_standby.vpd.png "DR - Warm Standby")
+
+---
+
+### Active - Active Multi-Region
+
+https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Hands-on_Building_a_multi-region_active-active_solution_ARC309-R1.pdf
+
 ---
