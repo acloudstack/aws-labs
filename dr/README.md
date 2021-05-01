@@ -40,3 +40,7 @@ marp: true
 https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Hands-on_Building_a_multi-region_active-active_solution_ARC309-R1.pdf
 
 ---
+### Help Documents
+
+https://github.com/aws-samples/disaster-recovery-playbook-for-aws-cn
+---
