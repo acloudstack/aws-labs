@@ -15,6 +15,9 @@ marp: true
 ### 2. DR - Keywords
 
 - **Disaster Recovery vs Backup**
+- Backup refers to the process of creating a copy of the data that can be restored in the event of an emergency. 
+- Disaster recovery, on the other hand, is all about keeping critical business workloads running following the disaster. 
+---
 - **RPO vs RTO**
   - RPO stands for Recovery Point Objective
     - The point in time in the past to which you will recover.
