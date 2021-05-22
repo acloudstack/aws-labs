@@ -11,19 +11,29 @@ marp: true
 
 ---
 
-### 1. DR - Introduction
+### 1. DR - Keywords
 
 - **Disaster Recovery vs Backup**
-- 
-- **On-premise - On-Premise**
-- From Physical data center
-  - Another physical data center
-  - Cloud
-- From Cloud to to Cloud:
-  - Same Vendor
-  - Different Vendor
+- **RPO vs RTO**
+  - RPO (Recovery Point Objective):
+  - RTO (Recovery Time Objective): 
+---
+- **3-2-1 Rule**
+- **On-premise - Service Deployed on-premise**
+  - From Physical data center
+    - Another physical data center
+    - Cloud
+- **On-premise - Service Deployed on-premise**
+  - From Cloud to to Cloud:
+    - Same Vendor
+    - Different Vendor
 - **STS**
 
+---
+1. Cold Failover (Backup and Restore):
+2. Pilot-Light: 
+3. Warm Standby:
+4. Hot Standby:
 ---
 ### Pilot Light
 
