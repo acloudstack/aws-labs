@@ -39,11 +39,17 @@ marp: true
 
 ---
 ### 4. DR - Recovery Types
-1. Cold Failover (Backup and Restore):
-2. Pilot-Light: 
-3. Warm Standby:
-4. Hot Standby:
+1. **Cold Failover (Backup and Restore):** This simple and low cost DR approach backs up your data and applications from anywhere to the AWS cloud for use during recovery from a disaster. 
+2. **Pilot-Light:** In this DR approach, a part of the IT structure is replicated for a limited set of core services so that the AWS cloud environment seamlessly takes over in the event of a disaster.
+3. **Warm Standby:** A DR solution in which a scaled-down version of a fully functional environment is always running in the cloud. 
+4. **Hot or Multi-Site:**  A multi-site solution runs on AWS as well as on your existing on-site infrastructure in an active- active or active-passive configuration. 
 ---
+### 4. DR - Demo
+
+- [Lambda Code](./assets/lambda_code.md)
+  
+---
+
 ### Pilot Light
 
 ![alt text right](./assets/pilot_light.png "DR - Pilot Light")
@@ -56,12 +62,10 @@ marp: true
 
 ---
 
-### Active - Active Multi-Region
+### Help
 
-https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Hands-on_Building_a_multi-region_active-active_solution_ARC309-R1.pdf
-
----
-### Help Documents
-
-https://github.com/aws-samples/disaster-recovery-playbook-for-aws-cn
+- https://aws.amazon.com/blogs/publicsector/rapidly-recover-mission-critical-systems-in-a-disaster/
+- https://www.youtube.com/watch?v=lK_t_dhUh5I
+- https://d1.awsstatic.com/events/reinvent/2019/REPEAT_1_Hands-on_Building_a_multi-region_active-active_solution_ARC309-R1.pdf
+- https://github.com/aws-samples/disaster-recovery-playbook-for-aws-cn
 
