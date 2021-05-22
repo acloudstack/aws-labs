@@ -24,7 +24,7 @@ marp: true
     - The maximum acceptable data loss
   - RTO stands for Recovery Time Objective
     - The time that it takes for the system to go from loss to recovery
-    - The amount of time a business entity is willing to endure their IT services being unavailable
+    - The amount of time a business entity is willing to accpet
   
 ---
 - **3-2-1 Rule**
