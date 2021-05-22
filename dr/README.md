@@ -20,8 +20,8 @@ marp: true
 ---
 - **RPO vs RTO**
   - RPO stands for Recovery Point Objective
-    - The point in time in the past to which you will recover.
-    - 
+    - The point in time in the past to which you will recover
+    - The maximum acceptable data loss
   - RTO stands for Recovery Time Objective
     - The time that it takes for the system to go from loss to recovery
     - The amount of time a business entity is willing to endure their IT services being unavailable
