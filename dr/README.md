@@ -12,7 +12,18 @@ marp: true
 - Disaster recovery (DR) is a critical component of the business continuity plan of all the organization. The failure to plan and manage the disaster recovery can lead to data/productivity loss and can also land the organization in audit and compliance issues
 ---
 
-### 2. DR - Keywords
+### 2. DR Solutions
+- **On-premise - Service Deployed on-premise**
+  - From Physical data center
+    - Another physical data center
+    - Cloud
+- **On-premise - Service Deployed on-premise**
+  - From Cloud to to Cloud:
+    - Same Vendor
+    - Different Vendor
+
+---
+### 3. DR - Keywords
 
 - **Disaster Recovery vs Backup**
   - Backup refers to the process of creating a copy of the data that can be restored in the event of an emergency. 
@@ -30,17 +41,7 @@ marp: true
 - **3-2-1 Rule**
   - The 3-2-1 backup rule is an industry-standard approach to ensuring your data is protected during a disaster. It helps to emphasize having at least three copies of your data, stored on two different types of storage media, and having at least one copy stored offsite.
 ---
-### 3. DR Solutions
-- **On-premise - Service Deployed on-premise**
-  - From Physical data center
-    - Another physical data center
-    - Cloud
-- **On-premise - Service Deployed on-premise**
-  - From Cloud to to Cloud:
-    - Same Vendor
-    - Different Vendor
 
----
 ### 4. DR - Recovery Types
 1. **Cold Failover (Backup and Restore):** This simple and low cost DR approach backs up your data and applications from anywhere to the AWS cloud for use during recovery from a disaster. 
 2. **Pilot-Light:** In this DR approach, a part of the IT structure is replicated for a limited set of core services so that the AWS cloud environment seamlessly takes over in the event of a disaster.
