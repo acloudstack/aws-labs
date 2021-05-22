@@ -15,8 +15,8 @@ marp: true
 ### 2. DR - Keywords
 
 - **Disaster Recovery vs Backup**
-- Backup refers to the process of creating a copy of the data that can be restored in the event of an emergency. 
-- Disaster recovery, on the other hand, is all about keeping critical business workloads running following the disaster. 
+  - Backup refers to the process of creating a copy of the data that can be restored in the event of an emergency. 
+  - Disaster recovery, on the other hand, is all about keeping critical business workloads running following the disaster. 
 ---
 - **RPO vs RTO**
   - RPO stands for Recovery Point Objective
@@ -28,7 +28,7 @@ marp: true
   
 ---
 - **3-2-1 Rule**
-- The 3-2-1 backup rule is an industry-standard approach to ensuring your data is protected during a disaster. It helps to emphasize having at least three copies of your data, stored on two different types of storage media, and having at least one copy stored offsite.
+  - The 3-2-1 backup rule is an industry-standard approach to ensuring your data is protected during a disaster. It helps to emphasize having at least three copies of your data, stored on two different types of storage media, and having at least one copy stored offsite.
 ---
 ### 3. DR Solutions
 - **On-premise - Service Deployed on-premise**
