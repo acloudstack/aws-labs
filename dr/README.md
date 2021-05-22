@@ -46,7 +46,7 @@ marp: true
 1. **Cold Failover (Backup and Restore):** This simple and low cost DR approach backs up your data and applications from anywhere to the AWS cloud for use during recovery from a disaster. 
 2. **Pilot-Light:** In this DR approach, a part of the IT structure is replicated for a limited set of core services so that the AWS cloud environment seamlessly takes over in the event of a disaster.
 3. **Warm Standby:** A DR solution in which a scaled-down version of a fully functional environment is always running in the cloud. 
-4. **Hot or Multi-Site:**  A multi-site solution runs on AWS as well as on your existing on-site infrastructure in an active- active or active-passive configuration. 
+4. **Hot or Multi-Site:**  A multi-site solution runs on AWS as well as on your existing on-site infrastructure in an active- active configuration. 
 ---
 ### 4. DR - Demo
 
