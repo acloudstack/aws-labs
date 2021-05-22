@@ -7,18 +7,27 @@ marp: true
 ---
 
 ### 1. DR - Introduction
-
-
+- Murphy's law: Everything that can go wrong will!
+- In the world of IT, disasters are unavoidable, but when disaster happens, the organization should have a plan in place for getting the business critical data and workloads online.
+- Disaster recovery (DR) is a critical component of the business continuity plan of all the organization. The failure to plan and manage the disaster recovery can lead to data/productivity loss and can also land the organization in audit and compliance issues
 ---
 
-### 1. DR - Keywords
+### 2. DR - Keywords
 
 - **Disaster Recovery vs Backup**
 - **RPO vs RTO**
-  - RPO (Recovery Point Objective):
-  - RTO (Recovery Time Objective): 
+  - RPO stands for Recovery Point Objective
+    - The point in time in the past to which you will recover.
+    - 
+  - RTO stands for Recovery Time Objective
+    - The time that it takes for the system to go from loss to recovery
+    - The amount of time a business entity is willing to endure their IT services being unavailable
+  
 ---
 - **3-2-1 Rule**
+- The 3-2-1 backup rule is an industry-standard approach to ensuring your data is protected during a disaster. It helps to emphasize having at least three copies of your data, stored on two different types of storage media, and having at least one copy stored offsite.
+---
+### 3. DR Solutions
 - **On-premise - Service Deployed on-premise**
   - From Physical data center
     - Another physical data center
@@ -27,9 +36,9 @@ marp: true
   - From Cloud to to Cloud:
     - Same Vendor
     - Different Vendor
-- **STS**
 
 ---
+### 4. DR - Recovery Types
 1. Cold Failover (Backup and Restore):
 2. Pilot-Light: 
 3. Warm Standby:
