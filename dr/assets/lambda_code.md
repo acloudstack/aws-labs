@@ -8,7 +8,7 @@
             
             sts_connection = boto3.client('sts')
             acct_b = sts_connection.assume_role(
-                RoleArn="arn:aws:iam::697752106569:role/ec2-full-access-can-be-assumed-by-acloudstack",
+                RoleArn="arn:aws:iam::xxxxxxxxxxx:role/ec2-full-access-can-be-assumed-by-acloudstack",
                 RoleSessionName="cross_acct_lambda"
             )
             
@@ -44,7 +44,7 @@
             
             sts_connection = boto3.client('sts')
             acct_b = sts_connection.assume_role(
-                RoleArn="arn:aws:iam::697752106569:role/ec2-full-access-can-be-assumed-by-acloudstack",
+                RoleArn="arn:aws:iam::xxxxxxxxxxx:role/ec2-full-access-can-be-assumed-by-acloudstack",
                 RoleSessionName="cross_acct_lambda"
             )
             
