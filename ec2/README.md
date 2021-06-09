@@ -77,6 +77,11 @@ A Elastic IP address is a Public IP address which is static.
 
       curl http://169.254.169.254/latest/user-data
 --- 
+
+      sudo mkfs -t ext4 /dev/xvdb
+      sudo mount /dev/xvdb /mnt
+      sudo umount /mnt
+---
 ## Web Server with RDS
 ![alt text right](./assets/webserver-elastic-ip--rds.png "WebServer with RDS")
 
