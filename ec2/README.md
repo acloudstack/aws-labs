@@ -47,9 +47,9 @@ A Elastic IP address is a Public IP address which is static.
 ## SSH into the EC2 instance
 
       eval `ssh-agent -s`
-      ssh-add -k ~/.ssh/acloudstack_github
+      ssh-add -k <PEM FILE>
       ssh-add -l
-      ssh -A ec2-user@50.16.115.40
+      ssh -A <user>@<IP ADDRESS>
 
 ---
 
@@ -63,6 +63,13 @@ A Elastic IP address is a Public IP address which is static.
 
 ---
 ## Instance MetaData and UserData
+
+      #!/bin/bash
+      yum update -y
+      yum install -y httpd
+      systemctl start httpd
+      systemctl enable httpd
+      echo "Hello World $(hostname -f)" > /var/www/html/index.html
 
       curl http://169.254.169.254/latest/meta-data/local-ipv4
       
