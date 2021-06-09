@@ -98,4 +98,5 @@ A Elastic IP address is a Public IP address which is static.
 - http://web.mit.edu/smadnick/www/wp/2020-16.pdf
 - https://medium.com/@shurmajee/aws-enhances-metadata-service-security-with-imdsv2-b5d4b238454b
 - https://medium.com/swlh/capital-one-data-breach-a-cloud-security-case-study-7a06ec900460
+- https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateWebServer.html
 
