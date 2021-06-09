@@ -38,13 +38,19 @@ A Elastic IP address is a Public IP address which is static.
 ---
 
 
-## SSH into the EC2 instance
+## SSH into the EC2 instance - 1
 - ssh into public instance using private key
+  
+![alt text right](./assets/public-ec2-admin-ssh.png "Public instance")
+
+---
+## SSH into the EC2 instance - 2
 - ssh into private instance with ssh agent forwarding
+  
 ![alt text right](./assets/private-ec2-ssh-key-forwarding.png "Public and Private instance")
 
 ---
-## SSH into the EC2 instance
+## SSH into the EC2 instance - 3
 
       eval `ssh-agent -s`
       ssh-add -k <PEM FILE>
