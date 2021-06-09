@@ -83,11 +83,11 @@ A Elastic IP address is a Public IP address which is static.
       sudo umount /mnt
 ---
 ## Web Server with RDS
-![alt text right](./assets/webserver-elastic-ip--rds.png "WebServer with RDS")
+![alt text right](./assets/webserver-elastic-ip-rds.png "WebServer with RDS")
 
 ---
 ## Web Server with RDS - Automation
-![alt text right](./assets/webserver-lambda-create-instance-from-ami.vpd.png "WebServer with RDS - Automation")
+![alt text right](./assets/webserver-lambda-create-instance-from-ami.png "WebServer with RDS - Automation")
 
 ---
 
