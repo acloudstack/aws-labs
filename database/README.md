@@ -35,5 +35,5 @@ marp: true
 ---
 
       sudo yum -y install mysql
-      mysql -h db-instance.cwy498e6o62a.us-east-1.rds.amazonaws.com -u admin -p
+      mysql -h <DB_CONNECTION_STRING -u <DB_USER> -p
       CREATE DATABASE employee;
