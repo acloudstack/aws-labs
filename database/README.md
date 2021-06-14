@@ -24,11 +24,6 @@ marp: true
 
 ---
 
-## Web Application
-![alt text right](./assets/api.png "Web Application")
-
----
-
 ## RDS
 ![alt text right](./assets/rds.png "RDS")
 
@@ -40,5 +35,5 @@ marp: true
 ---
 
       sudo yum -y install mysql
-      mysql -h rds-lab.czazhlxuipph.us-west-2.rds.amazonaws.com -u admin -p
+      mysql -h db-instance.cwy498e6o62a.us-east-1.rds.amazonaws.com -u admin -p
       CREATE DATABASE employee;
