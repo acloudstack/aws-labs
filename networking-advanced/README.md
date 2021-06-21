@@ -46,9 +46,11 @@ marp: true
 
 ## AWS Private Link - S3
 
-      aws s3 --region us-east-1 --endpoint-url https://bucket.vpce-1a2b3c4d-5e6f.s3.us-east-1.vpce.amazonaws.com ls s3://my-bucket/
+      aws s3 ls --region us-east-1 --endpoint-url https://bucket.vpce-0014109cef9cac25b-x62xe7yw.s3.us-east-1.vpce.amazonaws.com
+      
 
-      aws s3 ls s3://my-bucket/ --endpoint-url https://bucket.vpce-1a2b3c4d-5e6f.s3.ap-northeast-1.vpce.amazonaws.com
+      aws s3 ls s3://acloudbucket-12345-accesslogs --region us-east-1 --endpoint-url https://bucket.vpce-0014109cef9cac25b-x62xe7yw.s3.us-east-1.vpce.amazonaws.com
+
 
 
 ---
