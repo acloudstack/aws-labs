@@ -48,8 +48,12 @@ marp: true
 
       aws s3 --region us-east-1 --endpoint-url https://bucket.vpce-1a2b3c4d-5e6f.s3.us-east-1.vpce.amazonaws.com ls s3://my-bucket/
 
+      aws s3 ls s3://my-bucket/ --endpoint-url https://bucket.vpce-1a2b3c4d-5e6f.s3.ap-northeast-1.vpce.amazonaws.com
+
+
 ---
 
 ## Help
   - https://www.davidc.net/sites/default/subnets/subnets.html
   - https://docs.aws.amazon.com/AmazonS3/latest/userguide/privatelink-interface-endpoints.html
+  - https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html
