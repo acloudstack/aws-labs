@@ -36,7 +36,7 @@ Group
 Policy
 Role
 
-
+---
 
 IAM Policy - 
   - Version
@@ -47,3 +47,8 @@ IAM Policy -
     - Resource
     - Condition
     - Principal - needed for bucket policy
+
+---
+
+## Help
+- https://docs.aws.amazon.com/IAM/latest/UserGuide/intro-structure.html
