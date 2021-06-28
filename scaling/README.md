@@ -20,6 +20,7 @@ marp: true
   - Simple
   - Step
   - Scheduled
+- Cross-zone load balancing
 
 ---
 
