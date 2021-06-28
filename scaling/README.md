@@ -16,7 +16,10 @@ marp: true
   - Maximum
   - Desired
 - Health Check
-- 
+- Scaling Policy
+  - Simple
+  - Step
+  - Scheduled
 
 ---
 
