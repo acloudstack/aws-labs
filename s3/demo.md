@@ -1,14 +1,7 @@
+---
+marp: true
+---
 # Demo
-
-- Demo
-- 
-- Store:
-- Distribute:
-- Analyze:
-- Secure:
-- Use Case:
-- 
-
 1. Create a S3 bucket
 2. Create Folder
 3. Create/Read/Update/Delete Objects
@@ -19,7 +12,9 @@
 8. S3 Versioning 
 9. Cross Region Replication
 10. S3 Access Log
+11. Analyze Data
 
+---
 
 ## bucket policy
     {
@@ -51,6 +46,8 @@
         ]
     }
 
+---
+
 ## static website 
 - index.html
 - error.html
@@ -60,7 +57,11 @@
 
     - aws s3 --profile devuser-mycloudstack ls s3://test-bucket-9876543210 --recursive
 
+---
+
 ## Help
 - https://aws.amazon.com/premiumsupport/knowledge-center/block-s3-traffic-vpc-ip/
 - https://www.thegeekstuff.com/2019/04/aws-s3-cli-examples/
 - https://docs.aws.amazon.com/cli/latest/reference/s3/
+
+
