@@ -120,6 +120,6 @@ Amazon S3 offers capabilities to manage your data throughout its lifecycle. Once
     - Are there any relevant region data privacy laws?
     - Can Customer Data be stored outside of the country?
     - Can you meet the Governance Obligation?
-  - Proximity of userS to data
+  - Proximity of users to data
   - Service and Feature availability
   - Cost Effectivenes
