@@ -44,7 +44,7 @@
                 "Resource": "arn:aws:s3:::test-bucket-9876543210/test/*",
                 "Condition": {
                     "NotIpAddress": {
-                        "aws:SourceIp": "49.37.41.95/32"
+                        "aws:SourceIp": "1.2.3.4/32"
                     }
                 }
             }
@@ -53,3 +53,6 @@
 
 ## static website 
 - refer to the index.html and error.html
+
+## pre-signed url 
+    aws s3 --profile devuser-mycloudstack presign s3://test-bucket-9876543210/s3.png
