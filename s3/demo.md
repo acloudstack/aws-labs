@@ -63,5 +63,6 @@ marp: true
 - https://aws.amazon.com/premiumsupport/knowledge-center/block-s3-traffic-vpc-ip/
 - https://www.thegeekstuff.com/2019/04/aws-s3-cli-examples/
 - https://docs.aws.amazon.com/cli/latest/reference/s3/
+- https://www.redhat.com/en/topics/data-storage/file-block-object-storage
 
 

@@ -10,7 +10,7 @@
 8. [High Availability](./ec2/README.md)
 9. [Automation](./automation/README.md)
 10. [Caching](./networking/README.md)
-11. [sns](./security/README.md)
+11. [SNS](./security/README.md)
 12. [Containers](./ecs/README.md)
 13. [Serverless](./serverless/README.md)
 14. [Disaster Recovery](./dr/README.md)
