@@ -52,7 +52,15 @@
     }
 
 ## static website 
-- refer to the index.html and error.html
+- index.html
+- error.html
 
 ## pre-signed url 
-    aws s3 --profile devuser-mycloudstack presign s3://test-bucket-9876543210/s3.png
+    - aws s3 --profile devuser-mycloudstack presign s3://test-bucket-9876543210/s3.png
+
+    - aws s3 --profile devuser-mycloudstack ls s3://test-bucket-9876543210 --recursive
+
+## Help
+- https://aws.amazon.com/premiumsupport/knowledge-center/block-s3-traffic-vpc-ip/
+- https://www.thegeekstuff.com/2019/04/aws-s3-cli-examples/
+- https://docs.aws.amazon.com/cli/latest/reference/s3/
