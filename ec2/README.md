@@ -15,6 +15,14 @@ marp: true
 - **Create an AMI**
 	
 ---
+
+# Compute in AWS:
+- EC2
+- ECS - Containers
+- Lambda
+
+---
+
 ## What is EC2
 - Infrastructure as Service
 - Virtual Servers in AWS
@@ -25,6 +33,12 @@ marp: true
 - Network details
 - Firewall Rules
 - bootstrap script (optional)
+
+---
+## Instance Types:
+  - T2/T3 - General Purpose
+  - C - Compute Optimized
+  - R - Memory Optimized
   
 ---
 
