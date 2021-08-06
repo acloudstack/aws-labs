@@ -106,10 +106,3 @@ A Elastic IP address is a Public IP address which is static.
 - https://medium.com/swlh/capital-one-data-breach-a-cloud-security-case-study-7a06ec900460
 - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateWebServer.html
 
-
-1. Clone git repo
-2. install dependencies
-3. install aws sdk
-4. deploy app
-5. verify app
-6. 
