@@ -27,7 +27,6 @@ marp: true
 
 ---
 
-
       sudo yum update -y
       sudo yum -y install mysql
       mysql -h <DB_CONNECTION_STRING -u <DB_USER> -p
