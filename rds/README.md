@@ -11,8 +11,6 @@ marp: true
 - **Connect to RDS using MySQL Client**
 - **Create a Database**
 - **Connect to RDS from WebServer**
-- **Create a DynamoDB Table**
-- **Create a DynamoDB Global Table**
 - **Create Items**
 	
 ---
@@ -26,11 +24,6 @@ marp: true
 
 ## RDS
 ![alt text right](./assets/rds.png "RDS")
-
----
-## DynamoDB
-
-![alt text right](./assets/dynamodb.png "DynamoDB")
 
 ---
 
