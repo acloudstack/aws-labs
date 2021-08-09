@@ -2,7 +2,32 @@
 marp: true
 ---
 
-## RDS and DynamoDB
+## RDS
+- Relational
+  - Engines
+    - MySQL
+    - Oracle
+    - SQLServer
+    - PostgreSQL
+  - Structure:
+    - Rows and Columns
+    - Fixed Schema
+    - SQL Query
+    - Vertical Scalable Read/Write
+    - Horizontal Scalability for Read
+  - Consideration
+    - Compute Type - R is preferred
+    - Compute Size
+    - EBS Volume 
+      - SSD
+        - General Purpose
+        - Provisioned IOPS
+    - Durablity
+    - Availability
+    - 
+- AWS Managed
+
+- 
 
 ---
 ## Topics
