@@ -24,10 +24,8 @@ marp: true
         - Provisioned IOPS
     - Durablity
     - Availability
-    - 
 - AWS Managed
 
-- 
 
 ---
 ## Topics
