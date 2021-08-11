@@ -102,14 +102,6 @@ marp: true
 
 ---
 
-
-
-      sudo yum -y install mysql
-      mysql -h <DB_CONNECTION_STRING -u <DB_USER> -p
-      CREATE DATABASE employee;
-
----
-
 ## Help
 
 - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/LSI.html
