@@ -112,4 +112,5 @@ marp: true
 
 ## Help
 
+- https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/
 - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/LSI.html
