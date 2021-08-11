@@ -96,6 +96,14 @@ marp: true
 
 ---
 
+## Security
+- VPC Endpoint
+- IAM Access Control
+- Data at rest
+- Data in transit
+
+---
+
 ## DynamoDB
 
 ![alt text right](./assets/dynamodb.png "DynamoDB")
