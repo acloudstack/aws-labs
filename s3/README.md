@@ -123,3 +123,6 @@ Amazon S3 offers capabilities to manage your data throughout its lifecycle. Once
   - Proximity of users to data
   - Service and Feature availability
   - Cost Effectivenes
+
+## Help
+- https://gist.github.com/magnetikonline/6215d9e80021c1f8de12#full-access-and-s3-console-for-specific-iam-users
