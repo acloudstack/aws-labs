@@ -48,4 +48,9 @@ marp: true
    
 ![alt text right](./assets/vpc.png "VPC")
 
+---
+
+## Help
+- https://www.davidc.net/sites/default/subnets/subnets.html
+
 
