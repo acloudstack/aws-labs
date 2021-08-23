@@ -6,6 +6,7 @@ marp: true
 # IAM
 
 ---
+
 Identity Management - Identity in AWS are are required for authentication 
 Access Management deals with authorization. What the users can access once they are authenticated to AWS.
 
@@ -26,6 +27,25 @@ IAM -
     - You define how your user access your user accounts
     - You decide what is your password policy - number of characters, rotation
     - What is your restriction policy - least previlege
+
+---
+
+## Principal
+- A Principal is a Person or Application that can make a request for an action or operation on an AWS Resource.
+- User
+- Federated User
+- Role
+- Application
+  - Secret Key
+  - Role
+
+---
+
+## Policy
+- Resource Based Policy - Attached to Resource
+- Identity Based Policy - Attached to Principal
+- 
+
 
 ---
 
