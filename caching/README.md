@@ -17,4 +17,6 @@ marp: true
 
 ---
 ## Help
+- 
+- https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/nodes-connecting.html
 - https://github.com/aws-samples/amazon-elasticache-samples
