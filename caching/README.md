@@ -21,4 +21,5 @@ marp: true
 - https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/nodes-connecting.html
 - https://aws.amazon.com/premiumsupport/knowledge-center/elasticache-connection-test/
 - https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/nodes-connecting.html
+- https://docs.aws.amazon.com/whitepapers/latest/database-caching-strategies-using-redis/caching-patterns.html
 - https://github.com/aws-samples/amazon-elasticache-samples
