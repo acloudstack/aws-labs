@@ -140,4 +140,8 @@ A **Elastic IP** address is a Public IP address which is static.
 - https://medium.com/swlh/capital-one-data-breach-a-cloud-security-case-study-7a06ec900460
 - https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateWebServer.html
 - https://sectigostore.com/blog/5-differences-between-symmetric-vs-asymmetric-encryption/
-
+- https://www.hostinger.com/tutorials/ssh-tutorial-how-does-ssh-work
+- https://dyclassroom.com/reference-server/how-to-setup-ssh-key-based-authentication-on-linux-server
+- https://blog.runcloud.io/why-authentication-using-ssh-public-key-is-better-than-using-password-and-how-do-they-work/
+https://stackoverflow.com/questions/59555705/how-ssh-encrypts-communications-when-using-password-based-authentication
+- SSH using PuTTy: https://help.dreamhost.com/hc/en-us/articles/115001764232-Connect-to-your-DreamCompute-Instance-with-SSH-keys-in-Windows

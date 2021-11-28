@@ -61,7 +61,9 @@ Amazon Elastic Container Service (Amazon ECS) is a fully managed container orche
 
   - ECS Cluster - Logical group of EC2 instances
   - Container Instance (or EC2 Instances in a Cluser with an ECS agent running in it)
-  - Task Definition, Task, Service
+  - Task Definition: Metadata to tell ECS how to run a docker container
+  - Task: The docker container that is running
+  - Service: Helps define how many tasks to run and how
   - ECS agents register the EC2 with ECS service
   - Task Definitions are metadata in JSON format to tell ECS how to run a container
   - Launch Type - EC2 and Fargate
