@@ -29,19 +29,22 @@ marp: true
 ## What is EC2
 - Infrastructure as Service
 - Virtual Servers in AWS
-- OS
-- CPU
-- RAM
-- Storage
-- Network details
-- Firewall Rules
-- bootstrap script (optional)
+- Input:
+  - OS
+  - CPU
+  - RAM
+  - Storage
+  - Network details
+  - Firewall Rules
+  - bootstrap script (optional)
 
 ---
 
 ## EC2 Tenancy
-- On-Demand
-- Spot
+- Shared:
+  - On-Demand
+  - Spot
+  - Reserved
 - Dedicated Instance
 - Dedicated Host
   

@@ -1,4 +1,31 @@
 # aws-labs
+
+## Cloud Solution Architect
+ 1. Compute
+ 2. Storage
+    * Object Storage
+      * Block Storage
+      * Databases
+        * SQL
+        * No-SQL
+3. Networking
+4. Identity and Access Management
+5. Loggging and Monitoring
+6. Automation
+7. Elasticity and High Availability
+8. Building Decoupled Architecture
+9. Caching 
+10. Microsservices and Serverless Architecture
+
+
+## Cloud Security Architect
+1. Identity and Access Management
+2. Infrastructure Protection
+3. Data Protection 
+4. Detection
+5. Incident Response
+6. Compliance
+   
 ## AWS Certified Solutions Architect – Associate (SAA-C02)
 1. [S3](./s3/README.md)
 2. [EC2](./ec2/README.md)
@@ -20,7 +47,6 @@
 ## AWS Certified Security – Specialty (SCS-C01)
 1. [Security](./security/README.md)
 2. [Logging and Monitoring](./security/README.md)
-3. 
 
   
 ## AWS Certified Advanced Networking – Specialty (ANS-C00)
