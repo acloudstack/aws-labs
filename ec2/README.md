@@ -8,7 +8,7 @@ marp: true
 ## Topics
 - **Compute in AWS**
 - **EC2 Tenancy and Types**
-- **SSH and concept of Keys**- 
+- **SSH and concept of Keys** 
 - **Public IP, Private IP, Elastic IP**
 - **Create Linux instances (public and private) and securely ssh into to it**
 - **Security Groups**
