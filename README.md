@@ -8,9 +8,9 @@
       * Databases
         * SQL
         * No-SQL
-3. Networking
+3. Network
 4. Identity and Access Management
-5. Loggging and Monitoring
+5. Log and Monitor
 6. Automation
 7. Elasticity and High Availability
 8. Building Decoupled Architecture

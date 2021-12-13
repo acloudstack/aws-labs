@@ -52,5 +52,6 @@ marp: true
 
 ## Help
 - https://www.davidc.net/sites/default/subnets/subnets.html
+- https://cidr.xyz/
 
 
