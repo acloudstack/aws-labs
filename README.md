@@ -1,21 +1,25 @@
 # aws-labs
 
 ## Cloud Solution Architect
- 1. Compute
- 2. Storage
-    * Object Storage
-      * Block Storage
-      * Databases
-        * SQL
-        * No-SQL
+1. Compute 
+   * EC2
+   * Containers
+   * Lambda
+2. Storage
+   * Block Storage (EBS)
+   * File Storage (EFS, FSx)
+   * Object Storage (s3)
+   * Databases
+      * SQL
+      * No-SQL
 3. Network
-4. Identity and Access Management
-5. Log and Monitor
-6. Automation
-7. Elasticity and High Availability
-8. Building Decoupled Architecture
-9. Caching 
-10. Microsservices and Serverless Architecture
+2. Identity and Access Management
+3. Log and Monitor
+4. Automation
+5. Elasticity and High Availability
+6. Building Decoupled Architecture
+7. Caching 
+8.  Microsservices and Serverless Architecture
 
 
 ## Cloud Security Architect
