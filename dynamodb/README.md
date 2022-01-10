@@ -115,3 +115,11 @@ marp: true
 - https://aws.amazon.com/blogs/database/choosing-the-right-dynamodb-partition-key/
 - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/LSI.html
 - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SampleData.CreateTables.html
+
+
+
+
+SELECT Students.Name, Grades.Grade, Students.Marks
+FROM Students, Grades
+WHERE Students.Marks >= Grades.Min_mark AND Students.Marks <= Grades.Max_mark AND Grades.Grade >= 8
+ORDER BY Grades.Grade DESC, Students.Marks ASC;

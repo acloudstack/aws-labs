@@ -15,6 +15,11 @@ marp: true
 - How to achieve scalability
 
 ---
+## High Availability
+- High availability (HA) is the ability of a system to operate continuously without failing for a designated period of time. 
+- HA works to ensure a system meets an agreed-upon operational performance level. 
+- 
+---
 
 ## Load Balancers
 - Load Balancers are servers that distribute traffic to multiple backend servers
