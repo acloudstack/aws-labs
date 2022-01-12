@@ -12,14 +12,15 @@
    * Databases
       * SQL
       * No-SQL
+    * Caching
 3. Network
-2. Identity and Access Management
-3. Log and Monitor
-4. Automation
-5. Elasticity and High Availability
-6. Building Decoupled Architecture
-7. Caching 
-8.  Microsservices and Serverless Architecture
+4. Identity and Access Management
+5. Security
+6. Log and Monitor
+7. Automation
+8. Elasticity and High Availability
+9. Building Decoupled Architecture
+10. Microsservices, Containers and Serverless Architecture
 
 
 ## Cloud Security Architect
@@ -31,21 +32,21 @@
 6. Compliance
    
 ## AWS Certified Solutions Architect – Associate (SAA-C02)
-1. [S3](./s3/README.md)
-2. [EC2](./ec2/README.md)
-3. [RDS](./rds/README.md)
-4. [DynamoDB](./dynamodb/README.md)
+1. [Compute - EC2](./ec2/README.md)
+2. [Storage - S3](./s3/README.md)
+3. [Storage - RDS](./rds/README.md)
+4. [Storage - DynamoDB](./dynamodb/README.md)
 5. [Networking](./networking/README.md)
-6. [Advanced Networking](./advanced-networking/README.md)
-7. [IAM](./iam/README.md)
-8. [High Availability](./scaling/README.md)
-9. [Automation](./automation/README.md)
-10. [Caching](./caching/README.md)
-11. [SNS-SQS](./sns-sqs/README.md)
-12. [Containers](./ecs/README.md)
-13. [Serverless](./serverless/README.md)
-14. [Disaster Recovery](./dr/README.md)
-15. [DNS](./dns/README.md)
+7. [Networking - Advanced](./advanced-networking/README.md)
+8. [IAM](./iam/README.md)
+9. [High Availability](./scaling/README.md)
+10. [Automation](./automation/README.md)
+11. [Caching](./caching/README.md)
+12. [SNS-SQS](./sns-sqs/README.md)
+13. [Containers](./ecs/README.md)
+14. [Serverless](./serverless/README.md)
+15. [Disaster Recovery](./dr/README.md)
+16. [DNS](./dns/README.md)
 
 
 ## AWS Certified Security – Specialty (SCS-C01)
