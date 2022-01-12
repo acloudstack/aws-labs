@@ -42,7 +42,10 @@ marp: true
 
 ---
 
-## Best Practices
+## Help:
+- https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html#flow-logs-default
+- http://www.iana.org/assignments/protocol-numbers/protocol-numbers.xhtml
+- https://docs.aws.amazon.com/athena/latest/ug/cloudtrail-logs.html#create-cloudtrail-table-understanding
 
 ---
 ## Misc
