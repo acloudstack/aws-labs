@@ -1,1 +1,7 @@
 sudo tcpdump -i any host 172.31.61.27 -n
+
+uptime
+
+sudo amazon-linux-extras install epel -y
+sudo yum install stress -y
+sudo stress --cpu  8 --timeout 20

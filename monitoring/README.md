@@ -50,8 +50,9 @@ marp: true
 ---
 ## Misc
 
-uptime
-sudo yum install stress -y
-sudo amazon-linux-extras install epel -y
-sudo yum install stress -y
-sudo stress --cpu  8 --timeout 20
+  uptime
+  sudo yum install stress -y
+  sudo amazon-linux-extras install epel -y
+  sudo yum install stress -y
+  sudo stress --cpu  8 --timeout 20
+

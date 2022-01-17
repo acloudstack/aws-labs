@@ -15,7 +15,10 @@ marp: true
   - Changeset
   - 
 - Terraform
-- Elastic Beanstalk
+- Systems Manager
 
 ---
+
+## Help
+- https://aws-quickstart.github.io/quickstart-aws-vpc/
 
