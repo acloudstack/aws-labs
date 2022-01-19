@@ -54,6 +54,10 @@ After today's session, you should be able to:
 ---
 
 
+# Microservices:
+
+---
+
 
 # Elastic Container Service (ECS)
 
@@ -65,7 +69,6 @@ Amazon Elastic Container Service (Amazon ECS) is a fully managed container orche
   - Task: The docker container that is running
   - Service: Helps define how many tasks to run and how
   - ECS agents register the EC2 with ECS service
-  - Task Definitions are metadata in JSON format to tell ECS how to run a container
   - Launch Type - EC2 and Fargate
   - ECS Task Placement Strategy
   - ECS Task Placement Constraints
