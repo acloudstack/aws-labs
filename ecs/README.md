@@ -55,6 +55,11 @@ After today's session, you should be able to:
 
 
 # Microservices:
+- Business oriented Architecture
+- Independently deployable blocks of code - Can be scaled and maintained independently
+- Flexible use of Technology - Each microservice can be coded using different language
+- 
+- Loosely coupled code
 
 ---
 
